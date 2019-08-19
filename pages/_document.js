@@ -21,7 +21,6 @@ export default class MyDocument extends Document {
     return (
       <html lang="en">
         <Head>
-          <title>Typer</title>
           {/* Step 5: Output the styles in the head  */}
           {this.props.styleTags}
         </Head>
